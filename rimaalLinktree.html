@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>روابط التواصل</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            background:
+                linear-gradient(135deg, rgba(39, 24, 16, 0.85), rgba(149, 69, 32, 0.75)),
+                url("bg.png");
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* الكارت */
+        .card {
+            backdrop-filter: blur(8px);
+            background: rgba(0, 0, 0, 0.35);
+        }
+
+        /* الأزرار */
+        .social-btn {
+            background: #271810;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all .3s;
+        }
+
+        .social-btn:hover {
+            transform: scale(1.05);
+        }
+
+        /* ألوان المنصات */
+        .whatsapp:hover {
+            background: #25D366;
+        }
+
+        .instagram:hover {
+            background: #E1306C;
+        }
+
+        .facebook:hover {
+            background: #1877F2;
+        }
+
+        .tiktok:hover {
+            background: #111;
+        }
+
+        .maps:hover {
+            background: #EA4335;
+        }
+
+        .site:hover {
+            background: #e16b03;
+        }
+    </style>
+</head>
+
+<body class="text-white p-4">
+
+    <div class="card w-full max-w-sm rounded-2xl p-6 text-center shadow-2xl">
+
+        <img src="logo.png" class="w-24 h-24 mx-auto rounded-full border-2 border-[#954520] mb-4">
+
+        <h1 class="text-xl font-bold mb-6"> رمال للبخور والعطور</h1>
+
+        <div class="space-y-3">
+
+            <a href="https://wa.me/212677194845" class="social-btn whatsapp flex items-center justify-center gap-2 p-3 rounded-xl">
+                <i class="fab fa-whatsapp"></i>WhatsApp واتساب  
+            </a>
+
+            <a href="https://www.instagram.com/rimaal_official_maroc" class="social-btn instagram flex items-center justify-center gap-2 p-3 rounded-xl">
+                <i class="fab fa-instagram"></i> instagram انستغرام
+            </a>
+
+            <a href="https://web.facebook.com/profile.php?id=61587246434527" class="social-btn facebook flex items-center justify-center gap-2 p-3 rounded-xl">
+                <i class="fab fa-facebook"></i> Facebook فايسبوك
+            </a>
+
+            <a href="https://www.tiktok.com/@rimaalofficialmar"
+                class="social-btn tiktok flex items-center justify-center gap-2 p-3 rounded-xl">
+                <i class="fab fa-tiktok"></i> Tiktok تيكتوك
+            </a>
+
+            <a href="#" class="social-btn maps flex items-center justify-center gap-2 p-3 rounded-xl">
+                <i class="fa-solid fa-location-dot"></i> Google Maps
+            </a>
+
+            <a href="https://www.rimaal.ma" class="social-btn site flex items-center justify-center gap-2 p-3 rounded-xl">
+                <i class="fa-brands fa-chrome"></i>Site Web موقعنا الاكتروني
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
